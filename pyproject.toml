@@ -18,6 +18,11 @@ classifiers=[
 
 [tool.poetry.dependencies]
 python = ">=3.8, <4"
+bs4 = "^0.0.1"
+requests = "^2.26.0"
+pydantic = "^1.8.2"
+html5print = "^0.1.2"
+selenium = "^4.1.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6"
