@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "owasp-sql-injections"
+version = "0.1.0"
+description = "Simple SQL injection scripts for OWASP Juice Shop"
+authors = ["Morten Dæhli Aslesen"]
+license = "MIT License (http://opensource.org/licenses/MIT)"
+readme = "README.md"
+classifiers=[
+    "Development Status :: 4 - Beta",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Natural Language :: English",
+    "License :: OSI Approved :: MIT License",
+]
+
+[tool.poetry.dependencies]
+python = "3.9^"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
